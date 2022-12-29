@@ -1,0 +1,91 @@
+.top_nav .nav_menu{
+    background: #b4daf7 !important;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.left_col.left_sidebar{
+    background:#607d8b !important;
+}
+
+.nav_title{
+    background:#607d8b !important;
+}
+
+.nav.side-menu>li.active>a{
+    background: linear-gradient(#607d8b,#597380),#667c92 !important; 
+}
+
+.sidebar_shadow{
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.x_panel{
+    -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+}
+
+body{
+    font-family: Roboto !important;
+    color: #5f6163 !important;
+    background-image: url("/template/assets/images/gallery/image-1.jpg");
+	background-repeat: no-repeat;
+}
+
+body .container.body .right_col{
+    background: #f1f6f9 !important;
+}
+
+table{
+    font-size:14px;
+}
+
+h3{
+    font-weight:bold;
+}
+
+body .container.body .right_col{
+    height:100vh;
+}
+
+.nav-md ul.nav.child_menu li:after{
+    content:none;
+}
+.nav-md ul.nav.child_menu li:before{
+    content:none;
+}
+
+.nav.child_menu li {
+    padding-left: 25px !important;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.eot");
+    src: url("/fonts/Roboto-Regular.eot?#iefix") format('embedded-opentype'),
+         url("/fonts/Roboto-Regular.woff2") format('woff2'),
+         url("/fonts/Roboto-Regular.woff") format('woff'),
+         url("/fonts/Roboto-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Bold.eot");
+    src: url("/fonts/Roboto-Bold.eot?#iefix") format('embedded-opentype'),
+         url("/fonts/Roboto-Bold.woff2") format('woff2'),
+         url("/fonts/Roboto-Bold.woff") format('woff'),
+         url("/fonts/Roboto-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bold{
+    font-weight: bold;
+}
+
